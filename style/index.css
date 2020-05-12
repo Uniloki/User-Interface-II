@@ -47,6 +47,62 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	margin: 10px;
+}
 h1{
-   color: red;
+	display: flex;
+	font-size: 40px;
+    color: red;
+}
+
+.nav-container{
+	display: flex;
+	justify-content: flex-end;
+}
+.nav-container a{
+	border: 2px solid black;
+	padding: 10px 20px 10px 20px;
+}
+.top-page{
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	height: 400px;
+	background-color: red;
+	justify-content:  center;
+	align-items: center;
+}
+.top-page h2{
+	font-size: 60px;
+}
+.gallery{
+	margin: 0 auto;
+	margin-top: 20px;
+	background: red;
+	width: 1600px;
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+	flex-wrap: wrap;
+	
+	}
+.gallery img{
+	margin: 10px;
+}
+.gallery div{
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	align-items: center;
+}
+.footer{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-color: red;
+	display: flex;
+	justify-content:  center;
+	align-items: center;
 }

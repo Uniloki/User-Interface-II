@@ -66,6 +66,7 @@ h1{
 	margin-right: 30px;
 	display: flex;
 	justify-content: flex-end;
+	margin-top: -40px;
 }
 .nav-container a{
 	border: 2px solid black;
@@ -101,7 +102,7 @@ h1{
 }
 .top-page{
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 80px;
 	display: flex;
 	flex-direction: column;
 	width: 1000px;

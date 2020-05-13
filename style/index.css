@@ -161,7 +161,7 @@ h1{
 	margin-bottom: 30px;
 	width: 90%;
 	display: flex;
-	justify-content:  ;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	background-image: url("https://www.dropbox.com/s/9xu7aq4tydx78rk/fancy-pants.jpg?raw=1");
@@ -265,7 +265,7 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 	background-image: url("https://www.dropbox.com/s/kgnw06r3zmtff6s/photo-1538461766712-f613b5d76ff6.jpg?raw=1");
 }
 
-@media (max-width: 828px){
+@media (max-width: 900px){
 	.nav-container{
 		display: flex;
 		justify-content: center;

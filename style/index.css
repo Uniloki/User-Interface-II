@@ -50,13 +50,13 @@ table {
 
 /** All CSS FOR DEFAULT STYLING AND FOR HOME PAGE **/
 body{
-	margin: 10px;
-	margin-bottom: 0px;
+	margin: 1%;
+	margin-bottom: 0;
 	background-repeat: repeat;
 	background-image: url("https://www.dropbox.com/s/50ol0i7zu18i90g/shattered-island.gif?raw=1");}
 h1{
 	display: flex;
-	font-size: 80px;
+	font-size: 4rem;
 	color: red;
 	font-family: 'Inconsolata', monospace;
 	color: cyan;
@@ -105,8 +105,8 @@ h1{
 	margin-top: 80px;
 	display: flex;
 	flex-direction: column;
-	width: 1000px;
-	height: 600px;
+	width: 50%;
+	height: 500px;
 	background-image: url("https://www.dropbox.com/s/wfjxk8r4gnqzrgx/photo-1533134486753-c833f0ed4866.jpg?raw=1");
 	justify-content:  center;
 	align-items: center;
@@ -126,15 +126,16 @@ h1{
 	border-radius: 20px;
 	color: lightgrey;
 	background-color: black;
-	width: 600px;
-	height: 450px;
+	width: 60%;
+	height: 90%;
 }
-
 .top-page p{
 	font-family: 'Inconsolata', monospace;
-	font-size: 30px;
-	padding: 30px;
-	
+	font-size: 1rem;
+	padding: 3rem;
+}
+#about{
+	font-size: 3rem;
 }
 .top-name button{
 	width: 120px;
@@ -158,12 +159,12 @@ h1{
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	width: 1600px;
+	width: 90%;
 	display: flex;
-	justify-content:  center;
+	justify-content:  ;
 	align-items: center;
 	flex-wrap: wrap;
-	background-image: url("https://www.dropbox.com/s/omieoyyrjdhupbj/try.jpg?raw=1");
+	background-image: url("https://www.dropbox.com/s/9xu7aq4tydx78rk/fancy-pants.jpg?raw=1");
 	border: 2px solid black;
 	border-radius: 20px;
 	}
@@ -188,7 +189,7 @@ h1{
 }
 .footer{
 	
-	width: 110%;
+	width: 100%;
 	background-color: black;
 	display: flex;
 	justify-content:  center;
@@ -262,4 +263,37 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 }
 #contact-photo{
 	background-image: url("https://www.dropbox.com/s/kgnw06r3zmtff6s/photo-1538461766712-f613b5d76ff6.jpg?raw=1");
+}
+
+@media (max-width: 500px){
+	.nav-container{
+		display: flex;
+		justify-content: center;
+		margin: 80px 0 0 0;
+	}
+	.top-page{
+		margin: 0 auto;
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: 600px;
+		background-image: url("https://www.dropbox.com/s/wfjxk8r4gnqzrgx/photo-1533134486753-c833f0ed4866.jpg?raw=1");
+		justify-content:  center;
+		align-items: center;
+		box-shadow: 10px 10px 8px black;
+		border: 2px solid black;
+		border-radius: 20px;
+	}
+	.top-name button{
+		width: 120px;
+		padding: 0;
+	}
+	#about{
+		font-size: 30px;
+	}
+	.gallery img{
+		width: 60%;
+		height: 60%;
+	}
 }

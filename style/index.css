@@ -50,7 +50,6 @@ table {
 
 /** All CSS FOR DEFAULT STYLING AND FOR HOME PAGE **/
 body{
-	margin: 1%;
 	margin-bottom: 0;
 	background-repeat: repeat;
 	background-image: url("https://www.dropbox.com/s/50ol0i7zu18i90g/shattered-island.gif?raw=1");}
@@ -60,7 +59,7 @@ h1{
 	color: red;
 	font-family: 'Inconsolata', monospace;
 	color: cyan;
-}
+	margin: 1rem}
 html{
  font-size: 62.5%;
 }
@@ -68,7 +67,7 @@ html{
 	margin-right: 3rem;
 	display: flex;
 	justify-content: flex-end;
-	margin-top: -4rem;
+	margin-top: -1rem;
 }
 .nav-container a{
 	border: 2px solid black;
@@ -199,6 +198,15 @@ html{
 	display: flex;
 	justify-content:  center;
 	align-items: center;
+		
+}
+.contact-footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
 }
 .footer a{
 	background-color:#696a6b;

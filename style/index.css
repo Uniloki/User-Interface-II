@@ -61,12 +61,14 @@ h1{
 	font-family: 'Inconsolata', monospace;
 	color: cyan;
 }
-
+html{
+ font-size: 62.5%;
+}
 .nav-container{
-	margin-right: 30px;
+	margin-right: 3rem;
 	display: flex;
 	justify-content: flex-end;
-	margin-top: -40px;
+	margin-top: -4rem;
 }
 .nav-container a{
 	border: 2px solid black;
@@ -75,6 +77,7 @@ h1{
 	text-decoration: none;
 	background:black;
 	color: cyan;
+	font-size: 1.5rem;
 }
 .nav-container a:hover{
 	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -115,7 +118,7 @@ h1{
 	border-radius: 20px;
 }
 .top-page h2{
-	font-size: 40px;
+	font-size: 4rem;
 }
 .top-name{
 	display: flex;
@@ -131,7 +134,7 @@ h1{
 }
 .top-page p{
 	font-family: 'Inconsolata', monospace;
-	font-size: 1rem;
+	font-size: 2rem;
 	padding: 3rem;
 }
 #about{
@@ -186,6 +189,7 @@ h1{
 .gallery p{
 	color: #a7a9aa;
 	text-decoration: underline;
+	font-size: 2rem;
 }
 .footer{
 	padding: 0;
@@ -239,7 +243,7 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 	color: white;
 	padding: 30px 30px 30px 30px;
 	font-family: 'Inconsolata', monospace;
-	font-size: 30px;
+	font-size: 3rem;
 }
 
 .contact-cont{
@@ -260,7 +264,7 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 	color: white;
 	padding: 30px 30px 30px 30px;
 	font-family: 'Inconsolata', monospace;
-	font-size: 30px;
+	font-size: 3rem;
 }
 #contact-photo{
 	background-image: url("https://www.dropbox.com/s/kgnw06r3zmtff6s/photo-1538461766712-f613b5d76ff6.jpg?raw=1");
@@ -291,7 +295,7 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 	padding: 0;
 }
 #about{
-	font-size: 30px;
+	font-size: 3rem;
 }
 .gallery img{
 	width: 60%;
@@ -315,6 +319,13 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 	height: 20px;
 }
 .about-div p{
-	font-size: 20px;
+	font-size: 2.1rem;
+}
+#contact-div{
+	width: 268px;
+}
+#contact-div p{
+	font-size: 2rem;
+	margin-top: 80px;
 }
 }

@@ -314,7 +314,7 @@ background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-153002079
 	padding: 1rem;
 }
 #picture-div{
-	height: 0px;
+	display: none;
 }
 }
 @media (max-width: 800px){

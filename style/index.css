@@ -1,1 +1,299 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** All CSS FOR DEFAULT STYLING AND FOR HOME PAGE **/
+body{
+	margin: 1%;
+	margin-bottom: 0;
+	background-repeat: repeat;
+	background-image: url("https://www.dropbox.com/s/50ol0i7zu18i90g/shattered-island.gif?raw=1");}
+h1{
+	display: flex;
+	font-size: 4rem;
+	color: red;
+	font-family: 'Inconsolata', monospace;
+	color: cyan;
+}
+
+.nav-container{
+	margin-right: 30px;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -40px;
+}
+.nav-container a{
+	border: 2px solid black;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background:black;
+	color: cyan;
+}
+.nav-container a:hover{
+	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes shadow-inset-center {
+	0% {
+	-webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+			box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+	-webkit-box-shadow: inset 0 0 30px 0px rgba(255, 255, 255, 0.5);
+			box-shadow: inset 0 0 30px 0px rgba(255, 255, 255, 0.5);
+	}
+}
+@keyframes shadow-inset-center {
+	0% {
+	-webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+			box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+	-webkit-box-shadow: inset 0 0 30px 0px rgba(63, 216, 243, 0.5);
+		box-shadow: inset 0 0 30px 0px rgba(131, 230, 243, 0.452);
+	}
+}
+.top-page{
+	margin: 0 auto;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 500px;
+	background-image: url("https://www.dropbox.com/s/wfjxk8r4gnqzrgx/photo-1533134486753-c833f0ed4866.jpg?raw=1");
+	justify-content:  center;
+	align-items: center;
+	box-shadow: 10px 10px 8px black;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.top-page h2{
+	font-size: 40px;
+}
+.top-name{
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	align-items: center;
+	border:2px solid cyan;
+	border-radius: 20px;
+	color: lightgrey;
+	background-color: black;
+	width: 60%;
+	height: 90%;
+}
+.top-page p{
+	font-family: 'Inconsolata', monospace;
+	font-size: 1rem;
+	padding: 3rem;
+}
+#about{
+	font-size: 3rem;
+}
+.top-name button{
+	width: 120px;
+	background-color:#696a6b;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	border: 2px solid black;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background:rgb(34, 34, 34);
+	color: cyan;
+	border: 2px solid black;
+}
+.top-name button:hover{
+	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.gallery{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-image: url("https://www.dropbox.com/s/9xu7aq4tydx78rk/fancy-pants.jpg?raw=1");
+	border: 2px solid black;
+	border-radius: 20px;
+	}
+.gallery img{
+	border: 3px solid cyan;
+	box-shadow: 0px 2px 15px 0px cyan;
+	border-radius: 20px;
+	margin: 10px;
+	width: 400px;
+	height: 400px;
+}
+.gallery div{
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	align-items: center;
+	padding: 20px 20px 20px 20px;
+}
+.gallery p{
+	color: #a7a9aa;
+	text-decoration: underline;
+}
+.footer{
+	
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+}
+.footer a{
+	background-color:#696a6b;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	border: 2px solid black;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background:rgb(34, 34, 34);
+	color: cyan;
+	border: 2px solid black;
+}
+.footer a:hover{
+	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/** All CSS FOR ABOUT PAGE **/
+
+.about-cont{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  center;
+	align-items: center;
+	padding: 100px;
+
+}
+.about-cont div{
+	width: 500px;
+	height: 800px;
+	background-color: black;
+	border: 2px solid cyan;
+	border-radius: 20px;
+	margin: 10px;
+}
+.picture-div{
+background-image: url("https://www.dropbox.com/s/pa8qx5rvjb6qltx/photo-1530020793049-23eafadd208b.jpg?raw=1");
+}
+.about-div p{
+	color: white;
+	padding: 30px 30px 30px 30px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+}
+
+.contact-cont{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  center;
+	align-items: center;
+	padding: 100px;
+	
+}
+.contact-cont div{
+	width: 400px;
+	height: 400px;
+	background-color: black;
+	border: 2px solid cyan;
+}
+.contact-cont p{
+	color: white;
+	padding: 30px 30px 30px 30px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+}
+#contact-photo{
+	background-image: url("https://www.dropbox.com/s/kgnw06r3zmtff6s/photo-1538461766712-f613b5d76ff6.jpg?raw=1");
+}
+
+@media (max-width: 1200px){
+	.nav-container{
+		display: flex;
+		justify-content: center;
+		margin: 80px 0 0 0;
+	}
+	.top-page{
+		margin: 0 auto;
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: 600px;
+		background-image: url("https://www.dropbox.com/s/wfjxk8r4gnqzrgx/photo-1533134486753-c833f0ed4866.jpg?raw=1");
+		justify-content:  center;
+		align-items: center;
+		box-shadow: 10px 10px 8px black;
+		border: 2px solid black;
+		border-radius: 20px;
+	}
+	.top-name button{
+		width: 120px;
+		padding: 0;
+	}
+	#about{
+		font-size: 30px;
+	}
+	.gallery img{
+		width: 60%;
+		height: 60%;
+	}
+}
